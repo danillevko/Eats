@@ -1,0 +1,17 @@
+.header {}
+
+.link-logo {}
+
+.img-logo {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
+
+/* main */
+.section-hero {
+    height: 620px;
+    background-image: url("./img/background-hero.jpg");
+}
