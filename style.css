@@ -1,3 +1,9 @@
+.container {
+    width: 1210px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
 .header {}
 
 .link-logo {}
@@ -11,7 +17,64 @@
 .header-link {}
 
 /* main */
+
+.main {}
+
 .section-hero {
     height: 620px;
     background-image: url("./img/background-hero.jpg");
 }
+
+.hero-title {}
+
+.hero-slogan {}
+
+.order-title {}
+
+.delivery-btn {}
+
+.hero-btn {}
+
+.menu-btn {}
+
+/* section works start */
+
+.section-works {}
+
+.works-main-title {}
+
+.works-list {}
+
+.works-item {}
+
+.works-img {}
+
+.wraper-info {}
+
+.works-title {}
+
+.works-instruction {}
+
+.works-span {}
+
+/* section order start */
+
+.section-order {}
+
+.title-order {}
+
+.order-slogan {}
+
+.playstore-btn {}
+
+.footer-btn {}
+
+.appstore-btn {}
+
+/* footer start */
+
+.footer {}
+
+.footer-logo {}
+
+.footer-copywright {}
