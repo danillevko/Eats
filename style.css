@@ -4,77 +4,162 @@
     outline: 1px solid red;
 }
 
-.header {}
+.header {
+    outline: 1px solid blue;
+}
 
-.link-logo {}
+.header-wraper {
+    display: flex;
+    outline: 1px solid yellow;
+}
 
-.img-logo {}
+.link-logo {
+    outline: 1px solid purple;
+}
 
-.header-list {}
+.img-logo {
+    outline: 1px solid hotpink;
+}
 
-.header-item {}
+.header-list {
+    list-style: none;
+    display: flex;
+    gap: 94px;
+    margin-left: 455px;
+    outline: 1px solid pink;
+}
 
-.header-link {}
+.header-item {
+    outline: 1px solid rebeccapurple;
+}
+
+.header-link {
+    text-decoration: none;
+    outline: 1px solid darkblue;
+}
 
 /* main */
 
-.main {}
+.main {
+    outline: 1px solid darkcyan;
+}
 
 .section-hero {
     height: 620px;
     background-image: url("./img/background-hero.jpg");
+    background-size: cover;
+    outline: 1px solid darkgoldenrod;
 }
 
-.hero-title {}
+.hero-wraper{
+    color: white;
+    text-align: center;
+    outline: 1px solid darkorange;
+}
 
-.hero-slogan {}
+.hero-title {
+    outline: 1px solid darkolivegreen;
+}
 
-.order-title {}
+.hero-slogan {
+    outline: 1px solid green;
+}
 
-.delivery-btn {}
+.order-title {
+    outline: 1px solid greenyellow;
+}
 
-.hero-btn {}
+.delivery-btn {
+    outline: 1px solid darkkhaki;
+}
 
-.menu-btn {}
+.hero-btn {
+    outline: 1px solid khaki;
+}
+
+.menu-btn {
+    outline: 1px solid firebrick;
+}
 
 /* section works start */
 
-.section-works {}
+.section-works {
+    outline: 1px solid darkgray;
+}
 
-.works-main-title {}
+.works-main-title {
+    text-align: center;
+    outline: 1px solid salmon;
+}
 
-.works-list {}
+.works-list {
+    list-style: none;
+    outline: 1px solid skyblue;
+}
 
-.works-item {}
+.works-item {
+    display: flex;
+    gap: 281px;
+    outline: 1px solid violet;
+}
 
-.works-img {}
+.works-img {
+    outline: 1px solid chocolate;
+}
 
-.wraper-info {}
+.wraper-info {
+    width: 561px;
+    outline: 1px solid red;
+}
 
-.works-title {}
+.works-title {
+    outline: 1px solid royalblue;
+}
 
-.works-instruction {}
+.works-instruction {
+    outline: 1px solid lawngreen;
+}
 
-.works-span {}
+.works-span {
+    outline: 1px solid navy;
+}
 
 /* section order start */
 
-.section-order {}
+.section-order {
+    outline: 1px solid teal;
+}
 
-.title-order {}
+.title-order {
+    outline: 1px solid tomato;
+}
 
-.order-slogan {}
+.order-slogan {
+    outline: 1px solid crimson;
+}
 
-.playstore-btn {}
+.playstore-btn {
+    outline: 1px solid brown;
+}
 
-.footer-btn {}
+.footer-btn {
+    outline: 1px solid black;
+}
 
-.appstore-btn {}
+.appstore-btn {
+    outline: 1px solid gold;
+}
 
 /* footer start */
 
-.footer {}
+.footer {
+    outline: 1px solid grey;
+}
 
-.footer-logo {}
+.footer-logo {
+    outline: 1px solid silver;
+}
 
-.footer-copywright {}
+.footer-copywright {
+    outline: 1px solid indigo;
+}
