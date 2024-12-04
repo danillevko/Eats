@@ -46,7 +46,7 @@
 
 .section-hero {
     height: 620px;
-    background-image: url("./img/background-hero.jpg");
+    background-image: url("./img/bg1.jpg");
     background-size: cover;
     outline: 1px solid darkgoldenrod;
 }
@@ -127,6 +127,7 @@
 /* section order start */
 
 .section-order {
+    background-image: url(./img/bg2.jpg);
     outline: 1px solid teal;
 }
 
