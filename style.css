@@ -1,3 +1,13 @@
+:root {
+    --main-color: #252B42;
+    --title-color: #FFFFFF;
+    --secondary-title-color: #F6F6F6;
+    --black-color: #000000;
+    --active-color: #FA4A0C;
+    --grey-color: #737373;
+    --footer-color: #5C5C5C;
+}
+
 .container {
     width: 1210px;
     margin: 0 auto;
@@ -19,6 +29,10 @@
 
 .img-logo {
     outline: 1px solid hotpink;
+    width: 150px;
+    height: 65px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .header-list {
@@ -26,16 +40,23 @@
     display: flex;
     gap: 94px;
     margin-left: 455px;
-    outline: 1px solid pink;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .header-item {
-    outline: 1px solid rebeccapurple;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
 }
 
 .header-link {
     text-decoration: none;
-    outline: 1px solid darkblue;
+    color: var(--main-color);
+}
+
+.header-link-active {
+    color: var(--active-color);
 }
 
 /* main */
@@ -49,9 +70,10 @@
     background-image: url("./img/bg1.jpg");
     background-size: cover;
     outline: 1px solid darkgoldenrod;
+    padding-top: 80px;
 }
 
-.hero-wraper{
+.hero-wraper {
     color: white;
     text-align: center;
     outline: 1px solid darkorange;
@@ -59,26 +81,45 @@
 
 .hero-title {
     outline: 1px solid darkolivegreen;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .hero-slogan {
     outline: 1px solid green;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 58px;
 }
 
 .order-title {
     outline: 1px solid greenyellow;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
 }
 
 .delivery-btn {
     outline: 1px solid darkkhaki;
+    background-color: var(--active-color);
+    color: var(--title-color);
 }
 
 .hero-btn {
     outline: 1px solid khaki;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 16px 25px 16px 25px;
+    border-radius: 30px;
 }
 
 .menu-btn {
     outline: 1px solid firebrick;
+    opacity: ;
 }
 
 /* section works start */
@@ -90,17 +131,20 @@
 .works-main-title {
     text-align: center;
     outline: 1px solid salmon;
+    margin-top: 56px;
 }
 
 .works-list {
     list-style: none;
     outline: 1px solid skyblue;
+    margin-top: 70px;
 }
 
 .works-item {
     display: flex;
     gap: 281px;
     outline: 1px solid violet;
+
 }
 
 .works-img {
